@@ -24,6 +24,14 @@ Clique na aba Templates
 
 ![48098535-90f9b4f370bb8b06cfd7e4acf0ee0f97](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/03c1830c-621c-40b3-94ee-93eb568c8d2e)
 
+Va ate final da pagina
+
+![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/828a9e88-45f2-4b6b-98f1-ab4f164d2889)
+
+Adicione codigo abaixo dentro do Schema
+
+![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/74b97f33-e5d2-495d-aaba-25bb8b433adf)
+
 ```bash
 {
   "services": [
@@ -47,6 +55,9 @@ Clique na aba Templates
 }
 ```
 
+Adicione codigo abaixo dentro do Schema com credenciais Postgres e Redis alteradas
+
+![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/74b97f33-e5d2-495d-aaba-25bb8b433adf)
 
 ```bash
 {
@@ -124,7 +135,10 @@ Clique na aba Templates
 }
 ```
 
-#Apois subir a template preciso subir o comando 
+Depois de subir a template preciso subir o comando abaixo na console do Woofed
+
+![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/bf3585f0-ae3a-4c58-b1ce-6ba69f2f97bc)
+
 
 ```bash
 rails db:migrate 
@@ -133,3 +147,5 @@ rails db:migrate
 #dentro da do app woofed
 
 Pronto tudo Funcionando ✅😎
+
+Creditos: Andre Marques
