@@ -146,6 +146,12 @@ rails db:migrate
 
 #dentro da do app woofed
 
+Url Cliente
+
+https://seudominio.com.br/users/sign_in
+
+https://seudominio.com.br/motor_admin/
+
 Pronto tudo Funcionando ✅😎
 
 Creditos: Andre Marques
