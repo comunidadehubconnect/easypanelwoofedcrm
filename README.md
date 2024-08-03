@@ -48,7 +48,7 @@ Adicione codigo abaixo dentro do Schema
       "data": {
         "projectName": "woofed",
         "serviceName": "woofed-redis",
-        "password": "senha redis"
+        "password": "woofed-redis"
       }
     }
   ]
@@ -77,7 +77,7 @@ Adicione codigo abaixo dentro do Schema com credenciais Postgres e Redis alterad
             "port": 3000
           }
         ],
-        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL= seu endereço do postgres \nREDIS_URL=seu enderço do redis \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug",
+        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL= seu endereçodopostgres \nREDIS_URL=seuenderço do redis \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug \nLANGUAGE=pt-BR",
         "mounts": [
           {
             "type": "volume",
@@ -99,7 +99,7 @@ Adicione codigo abaixo dentro do Schema com credenciais Postgres e Redis alterad
         "deploy": {
           "command": "bundle exec sidekiq -C config/sidekiq.yml"
         },
-        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL=postgres://postgres:senhapostgres0@hubconnect_woofed-db:5432/hubconnect \nREDIS_URL=redis://default:senha redis@hubconnect_woofed-redis:6379 \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug",
+        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL= seu endereçodopostgres \nREDIS_URL=seuenderço do redis \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug \nLANGUAGE=pt-BR",
         "mounts": [
           {
             "type": "volume",
@@ -121,7 +121,7 @@ Adicione codigo abaixo dentro do Schema com credenciais Postgres e Redis alterad
         "deploy": {
           "command": "bundle exec good_job"
         },
-        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL=postgres://postgres:senhapostgres0@hubconnect_woofed-db:5432/hubconnect \nREDIS_URL=redis://default:senha redis@hubconnect_woofed-redis:6379 \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug",
+        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL= seu endereçodopostgres \nREDIS_URL=seuenderço do redis \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug \nLANGUAGE=pt-BR",
         "mounts": [
           {
             "type": "volume",
