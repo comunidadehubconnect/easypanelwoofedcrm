@@ -77,7 +77,7 @@ Adicione codigo abaixo dentro do Schema com credenciais Postgres e Redis alterad
             "port": 3000
           }
         ],
-        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL= seu endereçodopostgres \nREDIS_URL=seuenderço do redis \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug \nLANGUAGE=pt-BR",
+        "env":"ENABLE_USER_SIGNUP=true \nRAILS_ENV=production \nRACK_ENV=production \nNODE_ENV=production \nMOTOR_AUTH_USERNAME=admin \nMOTOR_AUTH_PASSWORD=admin \nFRONTEND_URL=https://$(PRIMARY_DOMAIN) \nDATABASE_URL= seu endereçodopostgres \nREDIS_URL=seuenderço do redis \nACTIVE_STORAGE_SERVICE=local \nRAILS_LOG_LEVEL=debug \nDEFAULT_TIMEZONE=Brasilia \nLANGUAGE=pt-BR",
         "mounts": [
           {
             "type": "volume",
